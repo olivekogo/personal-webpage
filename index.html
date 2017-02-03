@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>my website</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+    <link rel="stylesheet" type="text/css" href="circle-percentage/css/circle.css">
+    <link rel="stylesheet" type="text/css" href="Hover-master/css/hover.css"media="all">
+    <script type="text/javascript" src="map.js"></script>
+
+<!--STYLE-->
+<style type="text/css">
+*{margin: 0px;
+padding: 0px;
+}
+
+.picture{
+    background-image:url(images/image5.jpg);
+    background-repeat:no-repeat;  
+    height:700px;
+    width: 100%;
+    margin-bottom:100px; 
+
+      }
+
+
+
+
+.container-fluid{height: 50px;}
+
+
+
+.navbar-nav {
+    float:none;
+    margin:0 auto;
+    display:block;
+    text-align: center;
+
+}
+
+.navbar-nav > li {
+    display: inline-block;
+    float:none;
+
+}
+.navbar-nav li a{color:white;
+
+
+}
+.header{color:white ;
+    position: relative;
+    display: inline-block;   
+}
+#header{color: white;
+        text-align: center;
+        margin-top: 250px;
+        
+ }
+#header h1{font-size:50px;
+           overflow: hidden;
+           }
+#header h1:before,
+#header h1:after {
+    background-color: #fff;
+    content: "";
+    display: inline-block;
+    height: 5px;
+    position: relative;
+    vertical-align: middle;
+    width:10%;
+
+}
+ #header h1:before {
+    right: 0.2em;
+    margin-left: -70%;
+}
+#header h1:after {
+    left: 0.2em;
+    margin-right: -70%;
+}
+
+#header p{font-size:20px }
+
+
+
+
+
+
+#info1{margin-top:300px;
+       text-align: center; }
+
+
+
+
+#mypic{border-radius: 50%;
+       max-width:100%
+       height:auto;
+       padding-bottom:10px;
+       padding-top:5px;  
+        }
+#info1 p{padding-top:10px;}
+
+#info2{text-align: center;
+       margin-top: 20px;
+       background-color: #696969;
+       width: 100%}
+       
+#info2 h2{padding-bottom:30px;
+	color: white;
+ }
+
+#circle{margin-left:60px;   }
+
+#info3{margin-top:30px;
+text-align: center; }
+
+#info4{margin-top: 30px;
+      text-align: center;}
+
+#footer{background-color:#696969; 
+        margin-top: 20px; 
+        height:auto;}
+
+#social{list-style:none; margin-left:120px; }
+    
+ul#social li{display:inline-block;margin:10px 15px auto auto;}
+#social img{height:55px; width:55px; }
+
+
+.arrow{
+    position: relative;
+
+
+}
+ 
+/*replace the content value with the
+corresponding value from the list below*/
+ 
+.arrow:before {
+    content: "\f0ab";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+/*--adjust as necessary--*/
+    color: #fff;
+    font-size: 40px;
+    padding-right: 0.9em;
+    position: absolute;
+    top: 50px;
+    left: -15px;
+    text-decoration: none;
+}
+   	
+</style>
+  </head>
+
+<body>
+<div class="picture ">
+<nav class="navbar navbar-inverse">
+<div class="container-fluid">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar ">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+</button>
+
+	
+</div>
+<div class="collapse navbar-collapse" id="myNavbar">
+<ul class="nav navbar-nav">
+	<li class="active"><a href="#" class="white hvr-bounce-in">HOME</a></li>
+    <li><a href="#info1" class="white hvr-bounce-in">ABOUT</a></li>
+    <li><a href="#info2" class="white hvr-bounce-in">SKILLS</a></li>
+    <li><a href="#" class="white hvr-bounce-in">PORTFOLIO</a></li>
+    <li><a href="#info3" class="white hvr-bounce-in">CONTACT</a></li>
+    <li><a href="#footer" class="white hvr-bounce-in">SOCIAL MEDIA</a></li>
+</ul>
+	
+</div>
+</div>
+</nav>
+<div class="container">
+    <div class="row">
+    <div class="col-md-3"></div>
+    <div class="col-md-6" id="header">
+        <h1 class="">OLIVE KOGO</h1>
+        
+        <a href="#info1" class="arrow hvr-icon-down"></a>
+    </div>
+    <div class="col-md-3"></div>
+        
+    </div>
+</div>
+
+<div class="container" id="info1">
+	<div class="row">
+	    <div class="col-md-2"></div>
+		<div class="col-md-8">
+			<h2>FRONTEND WEB DEVELOPER</h2>
+			<img id="mypic" src="images/mypic.jpg" height="350px" width="325px">
+			<p style="font-size: 16px"><strong>Hello,I'm Olive.</strong></p>
+			<p>A Frontend Web Developer from Nairobi,Kenya.I have a degree in Project Management and have mastered HTML,CSS,Bootstrap and Jquery.I am working on expanding my web development skills and thus a part-time student with Coderstrust.I consider myself a creative and driven person,and i put my energy into building websites that are edgy and unique.</p>
+			<p>I'm originally from Kenya and i currently live in Marbella,Spain.I love lifting weights just as much as i love my food,i'm a self-proclaimed foodie.I am an explorer,intrigued by all the places i haven't visited and all the things i do not understand.Other than that,i love the sun and i plan on getting a dog.</p>
+			<p>Now that you know more about me, feel free to to contact me,let me create you a website that you'll love!</p>
+			<button type="button" class="btn btn-default btn-md hvr-buzz-out">DOWNLOAD RESUME</button>
+		</div>
+		<div class="col-md-2"></div>
+	</div>
+</div > 
+
+<div class="container" id="info2">
+<h2>SKILLS</h2>
+	<div class="row" >
+       
+       
+	<div class="col-md-4">
+
+			<div class="c100 p95 big  dark neon green " id="circle">
+				<span>HTML</span>
+				<div class="slice">
+					<div class="bar"></div>
+					<div class="fill"></div>
+				</div>
+			</div>
+		</div>
+
+	<div class="col-md-4">
+			<div class="c100 p80 big  dark orange " id="circle">
+				<span>CSS</span>
+				<div class="slice">
+					<div class="bar"></div>
+					<div class="fill"></div>
+				</div>
+			</div>
+
+		</div>
+		<div class="col-md-4">
+			<div class="c100 p75 big dark " id="circle">
+				<span>B.strap</span>
+				<div class="slice">
+					<div class="bar"></div>
+					<div class="fill"></div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<div class="row">
+
+	<div class="col-md-4">
+			<div class="c100 p50 big dark  " id="circle">
+				<span>JQuery</span>
+				<div class="slice">
+					<div class="bar"></div>
+					<div class="fill"></div>
+				</div>
+			</div>
+		</div>
+
+	<div class="col-md-4">
+			<div class="c100 p10 big dark neon green " id="circle">
+				<span>J.script</span>
+				<div class="slice">
+					<div class="bar"></div>
+					<div class="fill"></div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="c100 p5 big  dark orange " id="circle">
+				<span>PHP</span>
+				<div class="slice">
+					<div class="bar"></div>
+					<div class="fill"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container" id="info3">
+	<div class="row">
+	<h2>DROP ME A LINE!</h2>
+		<div class="col-md-8 col-md-offset-2">
+
+			<form id="contact-form" method="post" action="contact.php" role="form">
+
+    <div class="messages"></div>
+
+    <div class="controls">
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="form_name">Firstname *</label>
+                    <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="form_lastname">Lastname *</label>
+                    <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="form_email">Email *</label>
+                    <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="form_phone">Phone</label>
+                    <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label for="form_message">Message *</label>
+                    <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please,leave us a message."></textarea>
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <input type="submit" class="btn btn-default btn-send" value="Send message">
+            </div>
+        </div>
+        
+    </div>
+
+</form>
+		</div>
+        
+	</div>
+</div>
+<div class="container-fluid" id="footer">
+    <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+        <ul id="social">
+                                             <li><a href="http://www.facebook.com/kylie kogo" target="_blank" class="hvr-buzz-out"><img src="images/fb.png"alt="facebook"title="facebook"/></a></li>
+                                             <li><a href="http://www.twitter.com/kylie_kogo" target="_blank" class="hvr-buzz-out"><img src="images/Tweet.png"alt="twitter"title="twitter"/></a></li>  
+                                             <li><a href="http://www.youtube.com" target="_blank" class="hvr-buzz-out"><img src="images/ytube.png
+                                            "alt="youtube"title="youtube"/></a></li>
+                                             <li><a href="http://www.googleplus.com" target="_blank" class="hvr-buzz-out"><img src="images/gplus.png
+                                              "alt="google_plus"title="google_plus"/></a></li>
+                <li><a href="http://linkedin.com" target="_blank" class="hvr-buzz-out"><img src=" images/link.png"alt="linkedin"title="linkedin"/></a></li>       
+                                             </ul></div>
+        <div class="col-md-3"></div>
+    </div>
+</div>
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+    
+
+
+</body>
+</html>
